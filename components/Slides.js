@@ -56,11 +56,11 @@ const styles = {
 	},
 	textStyle: {
 		fontSize: 30,
-		color: 'white'
+		color: 'white',
+		marginBottom: 50
 	},
 	buttonStyle: {
-		backgroundColor: '#0288D1',
-		marginTop: 50
+		backgroundColor: '#0288D1'
 	}
 };
 

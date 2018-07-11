@@ -12,12 +12,17 @@ class MapScreen extends Component {
 		}
 	}
 
+	onRegionChangeComplete = (region) => {
+		this.setState({ region });
+	}
+
 	render() {
 		return (
 			<View style={{ flex: 1 }}>
 				<MapView 
 					region={this.state.region}
 					style={{ flex: 1 }}
+					onRegionChangeComplete={this.onRegionChangeComplete}
 				/>
 			</View>
 		);
